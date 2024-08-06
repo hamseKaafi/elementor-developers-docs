@@ -1,33 +1,47 @@
-# What is Elementor?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Business Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<Badge type="tip" vertical="top" text="Elementor Core" /> <Badge type="warning" vertical="top" text="Basic" />
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your business description goes here.</p>
+    </section>
 
-Elementor is the ultimate WordPress website builder that enables users to create pixel-perfect WordPress websites intuitively, professionally, and without having to write code. At the same time, it provides a framework allowing developers to extend its functionality providing users with additional features.  While it provides incredible ease-of-use, Elementor is also powerful and flexible, allowing creators to implement sophisticated designs and functionality, all within the Elementor framework.
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <!-- Add more services -->
+        </ul>
+    </section>
 
-## Elementor Versions
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@yourbusiness.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
 
-Elementor comes in different versions:
+    <footer>
+        <p>© 2024 Your Business. All rights reserved.</p>
+    </footer>
 
-**Elementor Core** is a free WordPress plugin. It includes Elementor’s main functionalities, enabling users to build sites using a graphical user interface with drag and drop capabilities.
-
-**Elementor Pro** is a paid version that adds a number of advanced features and options not found in the free version. It substantially increases and improves the tools available to professional web creators.
-
-**Elementor Beta Developer** is a version of the Elementor Pro plugin that is available to developers and provides them with a look at our most advanced features while they are still in development. Updated on almost a daily basis, this version gives developers time to familiarize themselves with new features before they are released to the public.
-
-In addition to these versions, external developers have worked to create **Elementor Addons**, introducing their own functionalities to Elementor, many of which have been widely adopted by our users.
-
-## Elementor’s Growth
-
-With over 13 million active websites currently powered by Elementor, the demand for new solutions is constantly growing. Web creators are always looking for new, niche features that lie outside the scope of Elementor’s feature set.
-
-## The Elementor Economy
-
-Over the years, to satisfy this demand, external developers have created hundreds of custom addons for Elementor. These addons are then [marketed and sold](https://elementor.com/addons/) to millions of Elementor users as part of an ever growing Elementor economy. Our documentation is built to help you join this growing market.
-
-## The Elementor Community
-
-For over five years, Elementor has proudly helped web creators by providing them with the best page and site building software available.
-
-In turn, the Elementor community has inspired external developers around the world to create powerful extensions, sophisticated widgets, integrate advanced JavaScript libraries with Elementor, and customize themes. All of these have contributed to broadening the capabilities of Elementor.
-
-The Elementor infrastructure is capable of supporting many features and functionalities that are not part of the product. This flexibility has helped make Elementor one of the most popular WordPress plugins. You have the opportunity to join this rapidly growing community of developers and web creators to give and receive advice, and grow as a professional addon developer.
+    <script src="script.js"></script>
+</body>
+</html>
